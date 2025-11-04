@@ -36,6 +36,21 @@ body {
   overflow-x: hidden;              /* Remove scroll horizontal */
 }
 
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 1200px;
   max: 0 auto;

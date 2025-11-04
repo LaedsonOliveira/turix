@@ -1,0 +1,26 @@
+.card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    width: 300px;
+    transition: transform 0,2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 10px;
+}
+
+.link {
+    color: #0070f3;
+    font-weight: 500;
+}
