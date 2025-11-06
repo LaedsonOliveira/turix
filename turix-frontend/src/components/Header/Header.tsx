@@ -14,7 +14,7 @@ export default function Header() {
             <nav>
                 <Link href="/">Home</Link>
                 <Link href="/home/laedson/Documentos/ProjetosAprendizadoDEV/turix-projeto/turix-frontend/src/components/DestinationCard/DestinationCard.tsx">Destinos</Link>
-                <Link href="/">Blog</Link>
+                <Link href="/blog">Blog</Link>
                 <Link href="/">Conta</Link>
             </nav>
 
