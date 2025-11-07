@@ -1,0 +1,11 @@
+.slug_destino {
+    padding: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}

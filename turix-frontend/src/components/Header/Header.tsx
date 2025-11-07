@@ -13,7 +13,7 @@ export default function Header() {
             <h1 className={styles.logo}>Turix</h1>
             <nav>
                 <Link href="/">Home</Link>
-                <Link href="/home/laedson/Documentos/ProjetosAprendizadoDEV/turix-projeto/turix-frontend/src/components/DestinationCard/DestinationCard.tsx">Destinos</Link>
+                <Link href="/destinos">Destinos</Link>
                 <Link href="/">Blog</Link>
                 <Link href="/">Conta</Link>
             </nav>
