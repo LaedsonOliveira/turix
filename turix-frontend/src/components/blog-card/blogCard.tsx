@@ -1,4 +1,4 @@
-import styles from "@/components/blogCard/blogCard.module.css"
+import styles from "@/components/blog-card/blogCard.module.css";
 export default function BlogCard() {
     return (
         <div className={styles.card}>
