@@ -1,4 +1,4 @@
-import DestinationCard from "@/components/DestinationCard/DestinationCard";
+import DestinationCard from "@/components/destination-card/DestinationCard";
 import styles from "@/app/destinos/page.module.css"
 import { destinos } from "../../data/destinos"
 

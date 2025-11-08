@@ -1,6 +1,6 @@
 import styles from "./DestinationList.module.css"
 import { destinos } from "@/data/destinos"
-import DestinationCard from "../DestinationCard/DestinationCard";
+import DestinationCard from "../destination-card/DestinationCard";
 
 
 export default function DestinationList( ) {
