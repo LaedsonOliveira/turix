@@ -1,4 +1,143 @@
+/* ===== FOOTER GERAL ===== */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c9cacc73;
+    color: #3b3d3c;
+    padding: 60px 20px;
+    width: 100%;
+}
 
-body {
-    
+/* GRID PRINCIPAL */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 3rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* MÓDULOS */
+.footerModule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== FORMULÁRIO ===== */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 12px;
+    width: 100%;
+}
+
+.form label {
+    font-size: 1.5rem;
+    color: #3b3d3c;
+    font-weight: 600;
+}
+
+.form input {
+    width: 100%;
+    max-width: 460px;
+    padding: 10px 14px;
+
+    background: white;
+    border: 1px solid #bfc4c6;
+    border-radius: 8px;
+
+    font-size: 0.95rem;
+    color: #333;
+
+    transition: 0.2s ease;
+}
+
+.form input:focus {
+    border-color: #4798bd;
+    box-shadow: 0 0 0 3px rgba(71, 152, 189, 0.25);
+    outline: none;
+}
+
+/* Botão */
+.button {
+    background-color: #4798bd;
+    color: #fff;
+
+    width: 100%;
+    max-width: 260px;
+
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.button:hover {
+    background-color: #3f86a6;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+/* ===== CONTATO ===== */
+
+.footerTitle {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.contactItem img {
+    filter: invert(36%) sepia(13%) saturate(1209%) hue-rotate(160deg) brightness(92%) contrast(87%);
+}
+
+/* Redes sociais */
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.socialLink {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+    color: #111;
+}
+
+/* ===== RODAPÉ FINAL ===== */
+
+.footerBottom {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #4a4d4c;
 }
