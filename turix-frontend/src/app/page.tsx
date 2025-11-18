@@ -6,8 +6,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-      <h2>Bem-vindo ao Turix o seu guia Turistico</h2>
-      <p>Uma viagem perfeita pelo Brasil, feita para você!</p>
       <DestinationList />
 
       </main>
